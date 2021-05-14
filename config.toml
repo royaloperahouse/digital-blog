@@ -1,0 +1,8 @@
+baseURL = "/"
+languageCode = "en-gb"
+title = "ROH Digital blog"
+theme = "hugo-tailwind-journal-master"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+[params]
+  Author = "The Royal Opera House"
