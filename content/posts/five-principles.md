@@ -13,7 +13,7 @@ We're building a new 'Digital Stage' for the Royal Opera House, responding to an
 
 ![Content flow diagram](/images/ds2-map.png)
 
-But -- just like live productions on our physical stage -- a seamless experience for our users requires a lot of joining up behind the scenes. We have many sources of content, many interlocking systems, many technicians, writers, lawyers and performers who contribute to the final product. To steer our way towards building a digital stage which meets our stringent quality tests, these are the systems design principles we're adopting:
+But -- just like live productions on our physical stage -- a seamless experience for our users requires a lot of joining up behind the scenes. We have many sources of content, many interlocking systems, many technicians, writers, lawyers and performers who contribute to the final product. To steer our way towards building a digital stage which meets our stringent quality tests, we're adopting a set of straightforward systems design principles:
 
 ## 1. Use existing services to their full extent
 
