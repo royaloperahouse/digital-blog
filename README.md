@@ -39,7 +39,7 @@ The [live site](https://royaloperahouse.github.io/) is automatically updated whe
 hugo serve -D
 ```
 
-### Edit the theme
+### To edit the theme
 
 ```bash
 cd /themes/hugo-tailwind-journal-master
