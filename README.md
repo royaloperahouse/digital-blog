@@ -42,6 +42,6 @@ hugo serve -D
 ### To edit the theme
 
 ```bash
-cd /themes/hugo-tailwind-journal-master
+cd themes/hugo-tailwind-journal-master
 yarn watch
 ```
