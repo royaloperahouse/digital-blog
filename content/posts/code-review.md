@@ -10,6 +10,15 @@ tags:
 - dev
 ---
 
+* Scan the code quickly in the browser
+* Download the code
+* Work through the flow
+* ensure the code satisfies the ACs of the ticket
+* run tests
+* don't be afraid to add code
+* be positive!
+* don't nitpick!
+
 https://dev.to/shubhamjain/the-case-against-pull-requests-and-how-to-fix-it-533g
 
 https://reactnativeradio.com/episodes/rnr-196-the-art-of-code-review
