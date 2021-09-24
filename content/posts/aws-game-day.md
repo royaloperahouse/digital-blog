@@ -14,7 +14,7 @@ On Friday last I was given the chance to take part in an AWS Game Day by my team
 
 Well that sounds a bit grand for something that basically involved skipping stand up to play around on AWS.
 
-What it involved was watching an intro on Twitch with some very enthusiasitc representatives who explained that we would be acting as employees of a Unicorn rental business whose CEO had recently drawn the ire of Keanu Reeves fans by publicly trash talking him.
+What it involved was watching an intro on Twitch with some very enthusiastic Amazon representatives who explained that we would be acting as employees of a Unicorn rental business whose CEO had recently drawn the ire of Keanu Reeves fans by publicly trash talking him.
 
 This resulted in some rather strange behaviour on the site namely:
 
@@ -31,14 +31,14 @@ DNS record in the application load balancer.
 reporting strange changes in their accounts.
 ```
 
-We were then assigned to 3 person teams composed of randomly assigned participants and given three hours to debug and fix the situation. The gameday dashboard and link to a dummy AWS console where available to us and we discussed the problem on a Chime call. My team was composed of another UK based dev and a woman in India. 
+We were then randomly assigned to 3 person teams of participants and given three hours to debug and fix the situation. The gameday dashboard and link to a dummy AWS console where available to us and we discussed the problem on an Amazon Chime call. My team was composed of another UK based man and a woman in India.
 
-The first issue was the easiest to fix as it was obviously an issue of an overly permissive security group attached to the database instance in RDS. 
+The first issue was the easiest to fix as it was obviously an issue of an overly permissive security group attached to the database instance in RDS. Fixed by locking down the Security group to only allow traffic from our app.
 
-The second had us stomped as we figured it was permissions on the S3 bucket but it took a bit of googling and some help from the occasional AWS helpers to get right. There was also a bonus question on this one which required us to find the AWS account number of the user who was removing the missing assets. This was done by exporting Cloudtrail logs to Athena and then invistigating what account was deleting objects in the bucket.
+The second had us stumped as we figured it was permissions on the S3 bucket but it took a bit of googling and some help from the occasional AWS helper to get right. There was also a bonus question on this one which required us to find the AWS account number of the user who was removing the missing assets. This was done by exporting Cloudtrail logs to Athena and then investigating what account was deleting objects in the bucket.
 
-The third we figured was an attempt at SQL injection but it took awhile to get to the root of it. The solution was to implement a condition in AWS WAF attached to the load balancer in front of our application. This then caught all the suspicious traffic which also allowed us to answer a bonus question of identifying the recipent of attempted malicious payments. We managed to figure that the main benificary was one Neo Anderson.  
+The third we figured was an attempt at SQL injection but it took awhile to get to the root of it. The solution was to implement a condition in AWS WAF attached to the load balancer in front of our application. This then caught all the suspicious traffic which also allowed us to answer a bonus question of identifying the recipient of attempted malicious payments. We managed to figure that the main beneficiary was one Neo Anderson.
 
-So we managed to answer all the questions and got our unicorn business back on line. We did get full marks but we finished 8th overall based on who reached full marks first. As an experince it was enjoyable. 
+So we managed to answer all the questions and got our unicorn business back on line. We did get full marks but we finished 8th overall based on who reached full marks first. As an experience it was enjoyable.
 
-So if you get a chance I'd recommend taking part in a Game day you get the chance to use some unfamialar AWS services but also spending the morning chatting with some interesting people from around the world not to successfully debugged the issues with a group of stangers.
+So if you get a chance I’d recommend taking part in a Game day you not only get a chance to use some unfamiliar services but also spending the morning chatting with some interesting people from around the world was really great.
