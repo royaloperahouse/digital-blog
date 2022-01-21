@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>digital stage on ROH Digital blog</title>
-    <link>https://royaloperahouse.github.io/digital-blog/tags/digital-stage/</link>
+    <link>https://royaloperahouse.github.io/tags/digital-stage/</link>
     <description>Recent content in digital stage on ROH Digital blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 11 May 2021 10:41:49 +0100</lastBuildDate><atom:link href="https://royaloperahouse.github.io/digital-blog/tags/digital-stage/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 May 2021 10:41:49 +0100</lastBuildDate><atom:link href="https://royaloperahouse.github.io/tags/digital-stage/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Five design principles</title>
-      <link>https://royaloperahouse.github.io/digital-blog/posts/five-design-principles/</link>
+      <link>https://royaloperahouse.github.io/posts/five-design-principles/</link>
       <pubDate>Tue, 11 May 2021 10:41:49 +0100</pubDate>
       
-      <guid>https://royaloperahouse.github.io/digital-blog/posts/five-design-principles/</guid>
+      <guid>https://royaloperahouse.github.io/posts/five-design-principles/</guid>
       <description>We&amp;rsquo;re building a new &amp;lsquo;Digital Stage&amp;rsquo; for the Royal Opera House, responding to and preparing for a new world where the majority of our growing audience is no longer in our cherished theatres, but in cinemas, homes, schools, on the train. We want to do justice to the spectacular opera and ballet performances that are recorded and streamed from Covent Garden, by focusing hard on quality (audio and video capture and encoding; low latency streaming; player optimisations) and by reducing as much friction as possible between our passionate audience and our wonderful content.</description>
     </item>
     
