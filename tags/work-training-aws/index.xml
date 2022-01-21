@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>work training aws on ROH Digital blog</title>
-    <link>https://royaloperahouse.github.io/tags/work-training-aws/</link>
+    <link>https://royaloperahouse.github.io/digital-blog/tags/work-training-aws/</link>
     <description>Recent content in work training aws on ROH Digital blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 23 Sep 2021 17:00:00 +0100</lastBuildDate><atom:link href="https://royaloperahouse.github.io/tags/work-training-aws/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Sep 2021 17:00:00 +0100</lastBuildDate><atom:link href="https://royaloperahouse.github.io/digital-blog/tags/work-training-aws/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS Game Day</title>
-      <link>https://royaloperahouse.github.io/posts/aws-game-day/</link>
+      <link>https://royaloperahouse.github.io/digital-blog/posts/aws-game-day/</link>
       <pubDate>Thu, 23 Sep 2021 17:00:00 +0100</pubDate>
       
-      <guid>https://royaloperahouse.github.io/posts/aws-game-day/</guid>
+      <guid>https://royaloperahouse.github.io/digital-blog/posts/aws-game-day/</guid>
       <description>On Friday last I was given the chance to take part in an AWS Game Day by my team here in the ROH.
 Well that sounds a bit grand for something that basically involved skipping stand up to play around on AWS.
 What it involved was watching an intro on Twitch with some very enthusiastic Amazon representatives who explained that we would be acting as employees of a Unicorn rental business whose CEO had recently drawn the ire of Keanu Reeves fans by publicly trash talking him.</description>
