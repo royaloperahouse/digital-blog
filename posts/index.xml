@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on ROH Digital blog</title>
-    <link>https://royaloperahouse.github.io/digital-blog/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on ROH Digital blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 23 Sep 2021 17:00:00 +0100</lastBuildDate><atom:link href="https://royaloperahouse.github.io/digital-blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Sep 2021 17:00:00 +0100</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS Game Day</title>
-      <link>https://royaloperahouse.github.io/digital-blog/posts/aws-game-day/</link>
+      <link>/posts/aws-game-day/</link>
       <pubDate>Thu, 23 Sep 2021 17:00:00 +0100</pubDate>
       
-      <guid>https://royaloperahouse.github.io/digital-blog/posts/aws-game-day/</guid>
+      <guid>/posts/aws-game-day/</guid>
       <description>On Friday last I was given the chance to take part in an AWS Game Day by my team here in the ROH.
 Well that sounds a bit grand for something that basically involved skipping stand up to play around on AWS.
 What it involved was watching an intro on Twitch with some very enthusiastic Amazon representatives who explained that we would be acting as employees of a Unicorn rental business whose CEO had recently drawn the ire of Keanu Reeves fans by publicly trash talking him.</description>
@@ -20,39 +20,30 @@ What it involved was watching an intro on Twitch with some very enthusiastic Ama
     
     <item>
       <title>Just what is ‘minimum’ in an MVP?</title>
-      <link>https://royaloperahouse.github.io/digital-blog/posts/just-what-is-minimum-in-an-mvp/</link>
+      <link>/posts/just-what-is-minimum-in-an-mvp/</link>
       <pubDate>Fri, 28 May 2021 17:00:00 +0100</pubDate>
       
-      <guid>https://royaloperahouse.github.io/digital-blog/posts/just-what-is-minimum-in-an-mvp/</guid>
+      <guid>/posts/just-what-is-minimum-in-an-mvp/</guid>
       <description>The term ‘MVP’ or &amp;lsquo;minimum viable product&amp;rsquo; is one that you can’t escape from in the modern digital age, and in our work in designing the new Royal Opera House TV streaming app its definitely a useful term. As a bit of background, the need for a TV app became apparent when we find that large numbers of our users were struggling to get casting to work. I find that a pretty easy to understand problem - I’ve been using Apple TV since they started, and Apple are meant to get these things right, but even trying to get an iPhone to cast reliably to an Apple TV is a bit of a hit and miss experience.</description>
     </item>
     
     <item>
       <title>Current Rising Staff Preview</title>
-      <link>https://royaloperahouse.github.io/digital-blog/posts/current-rising-staff-preview/</link>
+      <link>/posts/current-rising-staff-preview/</link>
       <pubDate>Fri, 21 May 2021 17:00:00 +0100</pubDate>
       
-      <guid>https://royaloperahouse.github.io/digital-blog/posts/current-rising-staff-preview/</guid>
+      <guid>/posts/current-rising-staff-preview/</guid>
       <description>This week we got the chance to see an opera in hyper reality. One of the benefits of working in an arts organisation like the Royal Opera House is the chance to occasionally see behind the scenes. On Tuesday last we were given just that opportunity as we were amongst the first to experience the &amp;ldquo;world&amp;rsquo;s first opera in hyper reality&amp;rdquo;.
 Current, Rising is a 15 minute virtual reality experience that allows groups to enter into an immersive world initally together and through the magic of a VR move through a series of virtual environments that include an M.</description>
     </item>
     
     <item>
       <title>Five design principles</title>
-      <link>https://royaloperahouse.github.io/digital-blog/posts/five-design-principles/</link>
+      <link>/posts/five-design-principles/</link>
       <pubDate>Tue, 11 May 2021 10:41:49 +0100</pubDate>
       
-      <guid>https://royaloperahouse.github.io/digital-blog/posts/five-design-principles/</guid>
+      <guid>/posts/five-design-principles/</guid>
       <description>We&amp;rsquo;re building a new &amp;lsquo;Digital Stage&amp;rsquo; for the Royal Opera House, responding to and preparing for a new world where the majority of our growing audience is no longer in our cherished theatres, but in cinemas, homes, schools, on the train. We want to do justice to the spectacular opera and ballet performances that are recorded and streamed from Covent Garden, by focusing hard on quality (audio and video capture and encoding; low latency streaming; player optimisations) and by reducing as much friction as possible between our passionate audience and our wonderful content.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://royaloperahouse.github.io/digital-blog/posts/test-post-with-image/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://royaloperahouse.github.io/digital-blog/posts/test-post-with-image/</guid>
-      <description>Test post with a swan </description>
     </item>
     
   </channel>
