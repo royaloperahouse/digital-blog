@@ -24,7 +24,7 @@ tags:
 
 (only `title`, `slug` and `date` are necessary).
 
-The [live site](https://royaloperahouse.github.io/) is automatically updated when you make changes in GitHub.
+The [live site](https://royaloperahouse.github.io/digital-blog/) is automatically updated when you make changes in GitHub.
 
 ### Adding images
 
