@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.94.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title"
+        content="Just what is ‘minimum’ in an MVP? - ROH Digital blog">
+    <meta name="twitter:description"
+        content="The term ‘MVP’ or &amp;lsquo;minimum viable product&amp;rsquo; is one that you can’t escape from in the modern digital age, and in our work in designing the new Royal Opera House TV streaming app its definitely a useful term. As a bit of background, the need for a TV app became apparent when we find that large numbers of our users were struggling to get casting to work. I find that a pretty easy to understand problem - I’ve been using Apple TV since they started, and Apple are meant to get these things right, but even trying to get an iPhone to cast reliably to an Apple TV is a bit of a hit and miss experience.">
+    <meta name="twitter:site" content="https://royaloperahouse.github.io/digital-blog/">
+    <meta name="twitter:creator" content="The Royal Opera House">
+    <meta name="twitter:image" content="https://royaloperahouse.github.io/digital-blog/">
+
+    
+    <meta property="og:locale" content="">
+    <meta property="og:type" content="article">
+    <meta property="og:title"
+        content="Just what is ‘minimum’ in an MVP? - ROH Digital blog">
+    <meta property="og:description"
+        content="The term ‘MVP’ or &amp;lsquo;minimum viable product&amp;rsquo; is one that you can’t escape from in the modern digital age, and in our work in designing the new Royal Opera House TV streaming app its definitely a useful term. As a bit of background, the need for a TV app became apparent when we find that large numbers of our users were struggling to get casting to work. I find that a pretty easy to understand problem - I’ve been using Apple TV since they started, and Apple are meant to get these things right, but even trying to get an iPhone to cast reliably to an Apple TV is a bit of a hit and miss experience.">
+    <meta property="og:url" content="https://royaloperahouse.github.io/digital-blog/posts/just-what-is-minimum-in-an-mvp/">
+    <meta property="og:site_name" content="ROH Digital blog">
+    <meta property="og:image" content="https://royaloperahouse.github.io/digital-blog/">
+
+    <title>Just what is ‘minimum’ in an MVP? - ROH Digital blog</title>
+
+    <meta name="author" content="The Royal Opera House">
+    <meta name="description"
+        content="The term ‘MVP’ or &amp;lsquo;minimum viable product&amp;rsquo; is one that you can’t escape from in the modern digital age, and in our work in designing the new Royal Opera House TV streaming app its definitely a useful term. As a bit of background, the need for a TV app became apparent when we find that large numbers of our users were struggling to get casting to work. I find that a pretty easy to understand problem - I’ve been using Apple TV since they started, and Apple are meant to get these things right, but even trying to get an iPhone to cast reliably to an Apple TV is a bit of a hit and miss experience.">
+
+    
+    
+
+    
+    
+
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Arvo:400,700">
+    
+    <link rel="stylesheet" href="/css/theme.css">
+    <link rel="stylesheet" href="/css/chroma.dracula.css">
+</head>
+
+<body class="font-serif bg-gray-200  antialiased">
+    <div class="w-full p-6 md:w-3/5 md:px-0 md:mx-auto xl:w-1/2">
+        <header class="mb-6">
+            
+            <div class="mb-6 md:flex md:items-center">
+                
+<div>
+    
+<a class="text-lg mb-8 inline-block" href="/">&larr; Back Home</a>
+
+    
+    
+    <h1 class="text-4xl font-bold">Just what is ‘minimum’ in an MVP?</h1>
+    <h2 class="text-l text-gray-700">
+        
+            Mark Weber
+        
+        ~ 28 May 2021
+    </h2>
+    <time datetime="2021-05-28 17:00:00 &#43;0100"></time>
+    
+    
+    
+    <ol class="mt-4">
+        
+        <li class="inline-block">
+            <a class="border-none text-gray-800 text-xs bg-gray-400 hover:bg-gray-600 hover:text-white rounded-sm px-3 py-1" href="https://royaloperahouse.github.io/digital-blog/tags/product-management">product management</a>
+        </li>
+        
+    </ol>
+    
+</div>
+
+            </div>
+
+            
+            
+        </header>
+
+        
+        
+<article class="mb-12 max-w-xl">
+    <p>The term ‘MVP’ or &lsquo;minimum viable product&rsquo; is one that you can’t escape from in the modern digital age, and in our work in designing the new Royal Opera House TV streaming app its definitely a useful term. As a bit of background, the need for a TV app became apparent when we find that large numbers of our users were struggling to get casting to work. I find that a pretty easy to understand problem - I’ve been using Apple TV since they started, and Apple are meant to get these things right, but even trying to get an iPhone to cast reliably to an Apple TV is a bit of a hit and miss experience. Lately they seemed to have got it a bit better but it&rsquo;s still something I wouldn’t want to rely on - especially not for a live performance. And then when you get to the wild-west of Smart TVs with random bits of tech thrown together - a true nightmare!</p>
+<p><img src="https://blog.crisp.se/wp-content/uploads/2016/01/mvp.png" alt="MVP car"></p>
+<p>Anyhow, the big need we identified was ‘I want to watch this stream really easily on a big screen’, and so a TV app seemed the best way. Research has shown us that Fire TV is probably the most used device by our target users, and so we’ve started with that - but we know we’ll need to support other platforms and so are using React Native to build the app to help it to be as portable as possible.</p>
+<p>This week we conducted remote user testing over Zoom calls, which is surprisingly effective. Our lead tester, Deborah doubled up as a TV remote control :-). We’ve gone for a fairly simple design approach and tried to follow things that feel familiar. What was interesting though was how our test users assumed functionality which we’d hoped to be able to avoid as part of our MVP. We found they assumed they would be able to add an item to a watch list, they assumed they could continue on from where they left off, etc. And even though our test mockup didn&rsquo;t illustrate these capabilities, the users didn&rsquo;t actually see they weren’t there - they just assumed it. And that really struck home - that the more a sector matures the less minimum is the ‘minimum’ of an MVP. There are things that users come to expect, and to deliver without them is to deliver a product that is basically not good enough. No matter how much we as developers may promote the idea of MVP as a great way of getting a product to market, we can not escape the reality of user expectations… and that’s the moral of this short story!</p>
+
+
+    
+</article>
+
+
+        <footer>
+            <p>
+                &copy; 2022 The Royal Opera House.
+            </p>
+        </footer>
+    </div>
+
+    
+</body>
+
+</html>
