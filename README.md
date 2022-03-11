@@ -1,6 +1,7 @@
 # ROH Digital blog
 
-A blog about digital projects at the Royal Opera House, administered as a [Hugo](https://gohugo.io/) site hosted in [GitHub Pages](https://pages.github.com/).
+## A blog about digital projects at the Royal Opera House
+Administered as a [Hugo](https://gohugo.io/) site hosted in [GitHub Pages](https://pages.github.com/).
 
 ## Publishing notes
 
