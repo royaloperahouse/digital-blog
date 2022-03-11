@@ -1,4 +1,4 @@
-baseURL = "https://royaloperahouse.github.io"
+baseURL = "/"
 languageCode = "en-gb"
 title = "ROH Digital blog"
 theme = "hugo-tailwind-journal-master"
