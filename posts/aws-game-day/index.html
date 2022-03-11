@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="generator" content="Hugo 0.94.1" />
+    <meta name="generator" content="Hugo 0.92.0" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,9 +16,9 @@
         content="On Friday last I was given the chance to take part in an AWS Game Day by my team here in the ROH.
 Well that sounds a bit grand for something that basically involved skipping stand up to play around on AWS.
 What it involved was watching an intro on Twitch with some very enthusiastic Amazon representatives who explained that we would be acting as employees of a Unicorn rental business whose CEO had recently drawn the ire of Keanu Reeves fans by publicly trash talking him.">
-    <meta name="twitter:site" content="https://royaloperahouse.github.io/">
+    <meta name="twitter:site" content="https://royaloperahouse.github.io/digital-blog/">
     <meta name="twitter:creator" content="The Royal Opera House">
-    <meta name="twitter:image" content="https://royaloperahouse.github.io/">
+    <meta name="twitter:image" content="https://royaloperahouse.github.io/digital-blog/">
 
     
     <meta property="og:locale" content="">
@@ -29,9 +29,9 @@ What it involved was watching an intro on Twitch with some very enthusiastic Ama
         content="On Friday last I was given the chance to take part in an AWS Game Day by my team here in the ROH.
 Well that sounds a bit grand for something that basically involved skipping stand up to play around on AWS.
 What it involved was watching an intro on Twitch with some very enthusiastic Amazon representatives who explained that we would be acting as employees of a Unicorn rental business whose CEO had recently drawn the ire of Keanu Reeves fans by publicly trash talking him.">
-    <meta property="og:url" content="https://royaloperahouse.github.io/posts/aws-game-day/">
+    <meta property="og:url" content="https://royaloperahouse.github.io/digital-blog/posts/aws-game-day/">
     <meta property="og:site_name" content="ROH Digital blog">
-    <meta property="og:image" content="https://royaloperahouse.github.io/">
+    <meta property="og:image" content="https://royaloperahouse.github.io/digital-blog/">
 
     <title>AWS Game Day - ROH Digital blog</title>
 
@@ -73,14 +73,14 @@ What it involved was watching an intro on Twitch with some very enthusiastic Ama
         
         ~ 23 Sep 2021
     </h2>
-    <time datetime="2021-09-23 17:00:00 &#43;0100"></time>
+    <time datetime="2021-09-23 17:00:00 BST"></time>
     
     
     
     <ol class="mt-4">
         
         <li class="inline-block">
-            <a class="border-none text-gray-800 text-xs bg-gray-400 hover:bg-gray-600 hover:text-white rounded-sm px-3 py-1" href="https://royaloperahouse.github.io/tags/work-training-aws">work training aws</a>
+            <a class="border-none text-gray-800 text-xs bg-gray-400 hover:bg-gray-600 hover:text-white rounded-sm px-3 py-1" href="https://royaloperahouse.github.io/digital-blog/tags/work-training-aws">work training aws</a>
         </li>
         
     </ol>
@@ -109,7 +109,7 @@ these back so our website looks right? If you want to see the website, go check 
 DNS record in the application load balancer.
 
 3) We are getting some really weird requests to our application (like whatever this is: 
-&#34;/Users.php?uid=1%20or%201=1&#34;). We think this is the result of why some users are 
+&quot;/Users.php?uid=1%20or%201=1&quot;). We think this is the result of why some users are 
 reporting strange changes in their accounts.
 </code></pre><p>We were then randomly assigned to 3 person teams of participants and given three hours to debug and fix the situation. The gameday dashboard and link to a dummy AWS console where available to us and we discussed the problem on an Amazon Chime call. My team was composed of another UK based man and a woman in India.</p>
 <p>The first issue was the easiest to fix as it was obviously an issue of an overly permissive security group attached to the database instance in RDS. Fixed by locking down the Security group to only allow traffic from our app.</p>
