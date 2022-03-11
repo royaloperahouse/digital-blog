@@ -1,5 +1,4 @@
 baseURL = "https://royaloperahouse.github.io/"
-publishDir = "docs"
 languageCode = "en-gb"
 title = "ROH Digital blog"
 theme = "hugo-tailwind-journal-master"
