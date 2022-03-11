@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.92.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title"
+        content="Five design principles - ROH Digital blog">
+    <meta name="twitter:description"
+        content="We&amp;rsquo;re building a new &amp;lsquo;Digital Stage&amp;rsquo; for the Royal Opera House, responding to and preparing for a new world where the majority of our growing audience is no longer in our cherished theatres, but in cinemas, homes, schools, on the train. We want to do justice to the spectacular opera and ballet performances that are recorded and streamed from Covent Garden, by focusing hard on quality (audio and video capture and encoding; low latency streaming; player optimisations) and by reducing as much friction as possible between our passionate audience and our wonderful content.">
+    <meta name="twitter:site" content="https://royaloperahouse.github.io/digital-blog/">
+    <meta name="twitter:creator" content="The Royal Opera House">
+    <meta name="twitter:image" content="https://royaloperahouse.github.io/digital-blog/">
+
+    
+    <meta property="og:locale" content="">
+    <meta property="og:type" content="article">
+    <meta property="og:title"
+        content="Five design principles - ROH Digital blog">
+    <meta property="og:description"
+        content="We&amp;rsquo;re building a new &amp;lsquo;Digital Stage&amp;rsquo; for the Royal Opera House, responding to and preparing for a new world where the majority of our growing audience is no longer in our cherished theatres, but in cinemas, homes, schools, on the train. We want to do justice to the spectacular opera and ballet performances that are recorded and streamed from Covent Garden, by focusing hard on quality (audio and video capture and encoding; low latency streaming; player optimisations) and by reducing as much friction as possible between our passionate audience and our wonderful content.">
+    <meta property="og:url" content="https://royaloperahouse.github.io/digital-blog/posts/five-design-principles/">
+    <meta property="og:site_name" content="ROH Digital blog">
+    <meta property="og:image" content="https://royaloperahouse.github.io/digital-blog/">
+
+    <title>Five design principles - ROH Digital blog</title>
+
+    <meta name="author" content="The Royal Opera House">
+    <meta name="description"
+        content="We&amp;rsquo;re building a new &amp;lsquo;Digital Stage&amp;rsquo; for the Royal Opera House, responding to and preparing for a new world where the majority of our growing audience is no longer in our cherished theatres, but in cinemas, homes, schools, on the train. We want to do justice to the spectacular opera and ballet performances that are recorded and streamed from Covent Garden, by focusing hard on quality (audio and video capture and encoding; low latency streaming; player optimisations) and by reducing as much friction as possible between our passionate audience and our wonderful content.">
+
+    
+    
+
+    
+    
+
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Arvo:400,700">
+    
+    <link rel="stylesheet" href="/css/theme.css">
+    <link rel="stylesheet" href="/css/chroma.dracula.css">
+</head>
+
+<body class="font-serif bg-gray-200  antialiased">
+    <div class="w-full p-6 md:w-3/5 md:px-0 md:mx-auto xl:w-1/2">
+        <header class="mb-6">
+            
+            <div class="mb-6 md:flex md:items-center">
+                
+<div>
+    
+<a class="text-lg mb-8 inline-block" href="/">&larr; Back Home</a>
+
+    
+    
+    <h1 class="text-4xl font-bold">Five design principles</h1>
+    <h2 class="text-l text-gray-700">
+        
+            Tom Dyson
+        
+        ~ 11 May 2021
+    </h2>
+    <time datetime="2021-05-11 10:41:49 BST"></time>
+    
+    
+    
+    <ol class="mt-4">
+        
+        <li class="inline-block">
+            <a class="border-none text-gray-800 text-xs bg-gray-400 hover:bg-gray-600 hover:text-white rounded-sm px-3 py-1" href="https://royaloperahouse.github.io/digital-blog/tags/architecture">architecture</a>
+        </li>
+        
+        <li class="inline-block">
+            <a class="border-none text-gray-800 text-xs bg-gray-400 hover:bg-gray-600 hover:text-white rounded-sm px-3 py-1" href="https://royaloperahouse.github.io/digital-blog/tags/systems">systems</a>
+        </li>
+        
+        <li class="inline-block">
+            <a class="border-none text-gray-800 text-xs bg-gray-400 hover:bg-gray-600 hover:text-white rounded-sm px-3 py-1" href="https://royaloperahouse.github.io/digital-blog/tags/digital-stage">digital stage</a>
+        </li>
+        
+    </ol>
+    
+</div>
+
+            </div>
+
+            
+            
+        </header>
+
+        
+        
+<article class="mb-12 max-w-xl">
+    <p>We&rsquo;re building a new &lsquo;Digital Stage&rsquo; for the Royal Opera House, responding to and preparing for a new world where the majority of our growing audience is no longer in our <a href="https://www.roh.org.uk/about/history">cherished theatres</a>, but in cinemas, homes, schools, on the train. We want to do justice to the spectacular opera and ballet performances that are recorded and streamed from Covent Garden, by focusing hard on quality (audio and video capture and encoding; low latency streaming; player optimisations) and by reducing as much friction as possible between our passionate audience and our wonderful content.</p>
+<p><img src="/images/ds2-map.png" alt="Content flow diagram"></p>
+<p>But &ndash; just like live productions on our physical stage &ndash; a seamless experience for our users requires a lot of joining up behind the scenes. We have many sources of content, many interlocking systems, many technicians, writers, lawyers and performers who contribute to the final product. To steer our way towards building a digital stage which meets our stringent quality tests, we&rsquo;re adopting a set of straightforward systems design principles:</p>
+<h2 id="1-use-existing-services-to-their-full-extent">1. Use existing services to their full extent</h2>
+<p>Understand and take full use of our existing tools: our CMS, our cast data platform, our CRM, our encoding platform, our CDN. Be wary of introducing new, overlapping tools that need support, maintenance and training. Fill in any gaps with the least code possible.</p>
+<h2 id="2-reduce-points-of-failure-for-end-users">2. Reduce points of failure for end-users</h2>
+<p>Public-facing interfaces should rely on as few end-points as possible, and only end-points that auto-scale in the cloud.</p>
+<h2 id="3-no-copy-paste">3. No copy paste</h2>
+<p>No-one should have to input the same content twice. It&rsquo;s undesirable, but acceptable, that some content may exist in two places, but we&rsquo;ll always be clear about the ultimate source of truth, and any duplication of content should be carried out by code, not humans.</p>
+<h2 id="4-make-all-key-services-swappable">4. Make all key services swappable</h2>
+<p>Future versions of the platform may substitute key components: as the volume of our content grows, we may switch to a dedicated video CMS, or run FFmpeg in-house, or negotiate with a new CDN provider. All our integrations should be designed with swappability in mind, so we can choose best-in-class tools when they become available.</p>
+<h2 id="5-prefer-known-technologies">5. Prefer known technologies</h2>
+<p>Our current expertise is in Typescript, React, relational databases, AWS. Wherever possible we&rsquo;ll choose technologies that play to these strengths; delivering this product takes priority over learning shiny new tools, at least for the next few months!</p>
+
+
+    
+</article>
+
+
+        <footer>
+            <p>
+                &copy; 2022 The Royal Opera House.
+            </p>
+        </footer>
+    </div>
+
+    
+</body>
+
+</html>
